@@ -35,6 +35,8 @@ npm install -g pnpm
 
 ### 3. 配置 API Key（可选）
 
+⚠️ **重要安全提示**：API Key 是敏感信息，**永远不要提交到 Git！**
+
 如果需要使用自定义 API：
 
 ```bash
@@ -50,6 +52,10 @@ notepad .env
 DEEPSEEK_API_KEY=sk-your-api-key-here
 DEEPSEEK_BASE_URL=https://api.deepseek.com
 ```
+
+📖 **配置安全管理**：查看 [CONFIG-SECURITY.md](CONFIG-SECURITY.md) 了解如何安全地备份和同步你的配置。
+
+**推荐方案**：使用 7-Zip 加密压缩 `.env` 文件，然后上传到私有云盘。
 
 ### 4. 创建桌面快捷方式
 
